@@ -107,7 +107,7 @@ public class FollowPath : MonoBehaviour
 
     public void GoToMiddle()
     {
-        graph.AStar(currentNode, wps[4]);
+        graph.AStar(currentNode, wps[3]);
         currentWaypointIndex = 0;
     }
 }
